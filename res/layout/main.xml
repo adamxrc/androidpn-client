@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+<LinearLayout 
+    android:orientation="vertical"
+     android:background="#EEEEFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content"  
+	    android:gravity="center_horizontal"
+	    android:text="@string/hello"
+	    android:textSize="13sp" 
+	    android:textStyle="bold"  
+	    android:background="@drawable/apn" 
+	    />
+	<EditText
+	    android:id="@+id/edit_user"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"  
+	    android:layout_gravity="center_horizontal"
+	    android:textColor="#000000"
+	    android:hint="username" 
+	    />
+	<EditText
+	    android:id="@+id/edit_pwd"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"  
+	    android:layout_gravity="center_horizontal"
+	    android:textColor="#000000"
+	    android:hint="password" 
+	    />
+	<Button
+		android:id="@+id/btn_connect"
+		android:layout_marginTop="10dip"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text=" 连 接 "
+		/>
+	<Button
+		android:id="@+id/btn_exit"
+		android:layout_marginTop="10dip"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:visibility="gone"
+		android:text=" 断 开 "
+		/>
+	<Button
+		android:id="@+id/btn_settings"
+		android:layout_marginTop="10dip"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text=" 设 置 "
+		/>
+	<Button
+		android:id="@+id/btn_userlist"
+		android:layout_marginTop="10dip"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="用户列表"
+		/>
+	<Button
+		android:id="@+id/btn_chatlist"
+		android:layout_marginTop="10dip"
+		android:layout_width="100dip"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="聊天列表"
+		/>
+</LinearLayout>
+</ScrollView>

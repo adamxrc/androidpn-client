@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+    
+    <ImageView android:id="@+id/array_image"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:layout_alignParentLeft="true" 
+        android:layout_centerVertical="true" 
+        android:adjustViewBounds="true" 
+        android:padding="2dip" 
+        android:contentDescription="@string/userlist_img" /> 
+    <Button 
+        android:id="@+id/array_button" 
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content" 
+        android:text="@string/chat" /> 
+    <TextView android:id="@+id/array_user" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/array_image"
+        android:layout_toLeftOf="@+id/array_button" 
+        android:layout_centerVertical="true"
+        android:singleLine="true" 
+        android:ellipsize="marquee"   
+        android:textSize="15sp"  />  
+ 
+</RelativeLayout> 
